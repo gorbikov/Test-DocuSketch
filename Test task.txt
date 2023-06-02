@@ -26,9 +26,11 @@ Create function “draw_plots”
 → reads json file passed as parameter as a pandas dataframe
     [done - В функцию передаётся url, там из него генерируется датафрейм.]
 → draws plot for comparing different columns
-
+    [done - Сгенерированы гистограммы, боксплоты и хитмап.]
 → saves plots in a folder called “plots”
+    [done - все графики сохраняются в папке plots.]
 → returns paths to all plots
+    [done - функция выдаёт лист с path]
 Create jupyter notebook called Notebook.ipynb in the root directory to call and visualize our
 plots
 
